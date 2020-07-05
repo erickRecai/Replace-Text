@@ -5,9 +5,9 @@ Supports special text modification such as replacing an entire text instance if 
 
 Additional functionality can be added with [Collapsable Toolbar](https://github.com/erickRecai/Collapsable-Toolbar) and [Script Options](https://github.com/erickRecai/Script-Options) scripts.
 
-This script works mostly client side aside from the following external libraries:
-[jQuery](https://jquery.com/): Used to handle page events.
-[waitForKeyElements](https://github.com/erickRecai/) Used to handle dynamic execution.
+This script works mostly client side aside from the following external libraries:  
+[jQuery](https://jquery.com/): Used to handle page events.  
+[waitForKeyElements](https://github.com/erickRecai/): Used to handle dynamic execution.
 
 # Installation
 Requires a browser extension that enables userscripts to install this userscript. I personally use Tampermonkey but other extensions should work as well.  
@@ -38,16 +38,16 @@ Here is an example rule that replaces all "word" characters.
 ![Replacing all characters](/instruction-images/1b-replace-all-characters.png)
 
 ### Replacing by text nodes
-Here is another example rule that replaces entire text instances.
+Here is another example rule that replaces entire text instances.   
 `[/(.|\W)+/i, "text"], //replaces all text instances with "text".`
 ![Replacing by text nodes](/instruction-images/1c-replace-by-text.png)
 
 ### Optional Script Options
-With [Collapsable Toolbar](https://github.com/erickRecai/Collapsable-Toolbar) and [Script Options](https://github.com/erickRecai/Script-Options) you can change script options per site though you need to be on the site itself to change them. Otherwise, these options can be changed within the script in the section `BA. script options`.
+With [Collapsable Toolbar](https://github.com/erickRecai/Collapsable-Toolbar) and [Script Options](https://github.com/erickRecai/Script-Options), you can change script options per site though you need to be on the site itself to change them. Otherwise, these options can be changed within the script in the section `BA. script options`.
 
 ![External Script Options](/instruction-images/2a-script-options.png)
 
-How the scripts are ordered are generally are the order that they run. This is my recommended order. 
+How the scripts are ordered are generally are the order that they run. There is a required order if you want the everything to show up correctly should want an onscreen user interface.
 1. [Collapsable Toolbar](https://github.com/erickRecai/Collapsable-Toolbar)
 2. [Script Options](https://github.com/erickRecai/Script-Options)
 3. [Custom Rules](https://github.com/erickRecai/Custom-Rules)
