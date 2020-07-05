@@ -47,7 +47,7 @@ With [Collapsable Toolbar](https://github.com/erickRecai/Collapsable-Toolbar) an
 
 ![External Script Options](/instruction-images/2a-script-options.png)
 
-How the scripts are ordered are generally are the order that they run. There is a required order if you want the everything to show up correctly should want an onscreen user interface.
+How the scripts are ordered are generally the order that they run. There is a required order if you want everything to show up correctly should you want an onscreen user interface.
 1. [Collapsable Toolbar](https://github.com/erickRecai/Collapsable-Toolbar)
 2. [Script Options](https://github.com/erickRecai/Script-Options)
 3. [Custom Rules](https://github.com/erickRecai/Custom-Rules)
