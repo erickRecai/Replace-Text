@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         BA. Replace Text 1.05.03
+// @name         Replace Text
 // @namespace    https://github.com/erickRecai
 // @version      1.05.03
 // @description  Replaces text with other text.

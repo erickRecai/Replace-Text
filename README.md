@@ -12,8 +12,8 @@ This script works mostly client side aside from the following external libraries
 # Installation
 Requires a browser extension that enables userscripts to install this userscript. I personally use Tampermonkey but other extensions should work as well.  
 
-[Chrome: Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)  
-[Firefox: Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
+[Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)  
+[Tampermonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 
 To install this script specifically, just the `.user.js` file needs to downloaded.
 
