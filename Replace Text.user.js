@@ -508,6 +508,7 @@ DB. support functions
                 );
             }
             let textNode = textWalker.nextNode();
+            let previousParent;
 
             // ==== for each textNode =============================================================|
             while (textNode) {
@@ -517,9 +518,16 @@ DB. support functions
                     let immediateParentNode = textNode.parentNode; // element containing the text node.
                     nodeCounter++;
                     
-                    markCheckedElements = getOptionState(scriptPrefix +"mark-checked", markCheckedElements);
-                    if (markCheckedElements) {
-                        immediateParentNode.classList.add(scriptPrefix +"node-"+ nodeCounter); //prefix
+                    // common case: new parent is different than previous.
+                    if (previousParent && !(previousParent == immediateParentNode) ) {
+                        markCheckedElements = getOptionState(scriptPrefix +"mark-checked", markCheckedElements);
+                        if (markCheckedElements) {
+                            // only sets checked class if previous parent is different.
+                            previousParent.classList.add(scriptPrefix +"node-"+ nodeCounter);
+                        }
+                        previousParent = immediateParentNode;
+                    }else if (!previousParent) {
+                        previousParent = immediateParentNode;
                     }
                 }
 
