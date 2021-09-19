@@ -7,11 +7,11 @@ Additional functionality can be added with [Collapsable Toolbar](https://github.
 
 This script works mostly client side aside from the following external libraries:  
 [jQuery](https://jquery.com/): Used to handle page events.  
-[waitForKeyElements](https://github.com/erickRecai/): Used to handle dynamic execution.
+[waitForKeyElements](https://greasyfork.org/en/scripts/5392-waitforkeyelements/code): Used to handle dynamic execution.
 
 # Missed Text Nodes
 If the script misses certain text instances, disabling either `rplt mrk chkd` in Script Options or set `markCheckedElements` to `0` in the code itself may catch the missed text.
-#### Example of a missed text with `[/(.|\W)+/i, "text"]`
+#### Example of a missed text with `[/\w/g, "a"]`
 ![Missed Text Nodes](/instruction-images/ya-missed-text-nodes.png)
 #### With `markCheckedElements` disabled
 ![With markCheckedElements Disabled](/instruction-images/yb-with-mark-checked-disabled.png)
