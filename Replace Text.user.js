@@ -13,7 +13,7 @@
 // @exclude      *://mail.google.com/*
 
 // @require      https://code.jquery.com/jquery-3.4.1.min.js
-// @require      https://greasyfork.org/scripts/381859-waitforkeyelements-by-brocka/code/WaitForKeyElements%20by%20BrockA.js?version=689364
+// @require      https://gist.githubusercontent.com/BrockA/2625891/raw/9c97aa67ff9c5d56be34a55ad6c18a314e5eb548/waitForKeyElements.js
 
 // @licence      CC-BY-NC-SA-4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/
 // @licence      GPL-3.0-or-later; http://www.gnu.org/licenses/gpl-3.0.txt
